@@ -112,7 +112,7 @@ export default class Home extends Component {
             <View style={styles.container}>
                 <View style={styles.tab}>
                     <SegmentedControlTab
-                        values={['推荐', '直播', '视频', '新闻']}
+                        values={['推荐', 'Live', '视频', '新闻']}
                         selectedIndex={this.state.customStyleIndex}
                         onTabPress={this.handleCustomIndexSelect}
                         borderRadius={8}
