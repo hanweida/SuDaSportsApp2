@@ -1,0 +1,3 @@
+rootProject.name = 'SuDaSportsApp2'
+
+include ':app'
